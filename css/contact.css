@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Jost";
+}
+
+.container {
+  width: 1111px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  margin-bottom: 70px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 65px;
+}
+header nav picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav picture img:last-of-type {
+  margin-left: 19px;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav ul li:not(:last-child) {
+  margin-right: 42px;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+}
+header nav ul li a:hover {
+  border-bottom: 1px solid #333;
+}
+
+main .contact__form {
+  background: #E7816B;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 480px;
+  margin-bottom: 160px;
+}
+main .contact__form .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+main .contact__form .contact .contact__info {
+  width: 50%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 32px;
+  padding-left: 95px;
+  padding-top: 75px;
+}
+main .contact__form .contact .contact__info h2 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+main .contact__form .contact .contact__info p {
+  width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .contact__form .contact form {
+  width: 50%;
+  height: 100%;
+  padding-top: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+main .contact__form .contact form .form .div__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+main .contact__form .contact form .form .div__input input {
+  width: 380px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: transparent;
+}
+main .contact__form .contact form .form .div__input input:last-child {
+  padding-bottom: 75px;
+}
+main .contact__form .contact form .form .div__input input:not(:last-child) {
+  margin-bottom: 25px;
+  padding: 11px;
+}
+main .contact__form .contact form .form .button_a {
+  width: 80%;
+  margin: 0 auto;
+  padding-right: 40px;
+}
+main .contact__form .contact form .form .button_a .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+main .contact__form .contact form .form .button_a .button button {
+  padding: 17px 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+}
+main .see__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 74px;
+  margin-bottom: 160px;
+}
+main .see__location article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+}
+main .see__location article img {
+  width: 202px;
+  height: 202px;
+  margin-bottom: 48px;
+}
+main .see__location article address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #333136;
+  margin-bottom: 32px;
+}
+main .see__location article button {
+  padding: 18px;
+  background: #E7816B;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #E7816B;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+main .see__location article button:hover {
+  background-color: transparent;
+}
+main .see__location article button:hover a {
+  color: #555;
+}
+main .see__location article button a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+footer {
+  width: 100%;
+  background-color: #1D1C1E;
+  margin-bottom: 0;
+  padding-bottom: 72px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+footer header {
+  padding-top: 72px;
+  margin-bottom: 31px;
+}
+footer header nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+  padding-bottom: 40px;
+}
+footer header nav ul li a {
+  color: #FFFFFF;
+}
+footer header nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+footer .footer__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+}
+footer .footer__address address {
+  width: 350px;
+  height: 78px;
+  font-style: normal;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  color: rgb(117, 110, 110);
+}
+footer .social__media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 430px;
+  height: 78px;
+}
+footer .social__media i {
+  font-size: 24px;
+  color: #E7816B;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+footer .social__media i:hover {
+  color: #FFAD9B;
+}
+footer .social__media i:not(:last-child) {
+  margin-right: 16px;
+}/*# sourceMappingURL=contact.css.map */
